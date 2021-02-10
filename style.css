@@ -1,5 +1,6 @@
 header {
-    background-color: red;
+    color: gold;
+    background-color: black;
 }
 
 body {
@@ -15,6 +16,12 @@ main {
     background-size: contain;
 }
 
+button {
+    background-color: gold;
+    color: black;
+    /* text-shadow: 2px 2px black; */
+}
+
 .card {
     background-color: black;
 }
@@ -24,5 +31,15 @@ main {
 }
 
 .test {
-    text-shadow: 2px 2px black;
+    color: gold;
+    text-shadow: 5px 5px black;
+}
+
+
+footer {
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    color: gold;
+    background-color: black;
 }
