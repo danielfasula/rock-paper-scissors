@@ -1,11 +1,28 @@
+header {
+    background-color: red;
+}
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('rockpaperscissors.jpg') ;
-    background-size: cover;
+    font-family: 'Russo One', sans-serif;
 }
 
 main {
-flex-grow: 1;
+    flex-grow: 1;
+    background-image: url('nice.jpg') ;
+    background-size: contain;
+}
+
+.card {
+    background-color: black;
+}
+
+.card-img-top {
+    background-color: black;
+}
+
+.test {
+    text-shadow: 2px 2px black;
 }

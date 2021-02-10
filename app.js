@@ -6,28 +6,40 @@ function play(playerChoice) {
 
     if (playerChoice == 'rock') {
         if (computerChoice == 'rock') {
-            alert('You Tie')
+            // alert('You Tie')
+            document.getElementById('test').textContent = 'You tie! Try Again.';
         } else if (computerChoice == 'paper') {
-            alert('You Lose!')
+            // alert('You Lose!')
+            document.getElementById('test').textContent = 'You Lose! Try Again.';
         } else if (computerChoice == 'scissors') {
-            alert('You Win!')
+            // alert('You Win!')
+            document.getElementById('test').textContent = 'You Win! Your father will finally be proud.';
+
         }
     } else if (playerChoice == 'paper') {
         if (computerChoice == 'rock') {
-            alert('You Win')
+            // alert('You Win')
+            document.getElementById('test').textContent = 'You Win! Your father will finally be proud.';
         } else if (computerChoice == 'paper') {
-            alert('You Tie')
+            // alert('You Tie')
+            document.getElementById('test').textContent = 'You Tie! Try Again.';
         } else if (computerChoice == 'scissors') {
-            alert('You Lose!')
+            // alert('You Lose!')
+            document.getElementById('test').textContent = 'You Lose! Try Again.';
+
         }
     } else if (playerChoice == 'scissors') {
         if (computerChoice == 'rock') {
-            alert('You Lose!')
+            // alert('You Lose!')
+            document.getElementById('test').textContent = 'You Lose! Try Again.';
         } else if (computerChoice == 'paper') {
-            alert('You Win!')
+            // alert('You Win!')
+            document.getElementById('test').textContent = 'You Win! Your father will finally be proud.';
         } else if (computerChoice == 'scissors') {
-            alert('You Tie')
+            // alert('You Tie')
+            document.getElementById('test').textContent = 'You Lose! Try Again.';
         }
     }
+
 
 }
